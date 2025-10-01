@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import profileImg from "../assets/WhatsApp Image 2025-09-28 at 15.48.37_c30f1682.jpg"; // Replace with your actual image
 
 export default function Home() {
@@ -45,30 +46,38 @@ export default function Home() {
                      text-sm sm:text-base md:text-lg 
                      max-w-sm sm:max-w-md md:max-w-lg mx-auto md:mx-0"
         >
-          Full-stack engineer skilled in design thinking, critical thinking, business models, and implementations. Passionate about building engaging and scalable applications. More info can be found on my About page.
+          Full-stack engineer skilled in design thinking, critical thinking,
+          business models, and implementations. Passionate about building
+          engaging and scalable applications. More info can be found on my About
+          page.
         </p>
-
         <div className="mt-6 flex flex-wrap gap-4 justify-center md:justify-start">
           <a
-            href="/projects"
-            className="px-5 sm:px-6 py-2.5 bg-yellow-500 hover:bg-yellow-600 
-                       dark:bg-yellow-400 dark:hover:bg-yellow-500 
-                       text-white dark:text-slate-900 font-semibold 
-                       rounded-lg shadow-md text-sm sm:text-base 
-                       transition-all duration-300"
+            href="https://github.com/Maleek6526"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-5 sm:px-6 py-2.5 
+                   bg-gray-900 hover:bg-gray-800 
+                   text-white font-semibold rounded-lg 
+                   shadow-md border border-yellow-400 hover:shadow-yellow-500/60 
+                   text-sm sm:text-base transition-all duration-300"
           >
-            Projects
+            <FaGithub className="text-lg" />
+            GitHub
           </a>
+
           <a
             href="https://www.linkedin.com/in/adewale-maleek/"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-5 sm:px-6 py-2.5 border border-slate-400 dark:border-slate-600 
-                       text-slate-600 dark:text-slate-200 font-semibold 
-                       rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 
-                       text-sm sm:text-base 
-                       transition-all duration-300"
+            className="flex items-center gap-2 px-5 sm:px-6 py-2.5 
+                   border border-yellow-400 dark:border-yellow-400 
+                   text-slate-600 dark:text-slate-200 font-semibold 
+                   rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 
+                   shadow-md hover:shadow-yellow-500/60 
+                   text-sm sm:text-base transition-all duration-300"
           >
+            <FaLinkedin className="text-blue-600 dark:text-blue-400 text-lg" />
             LinkedIn
           </a>
         </div>
