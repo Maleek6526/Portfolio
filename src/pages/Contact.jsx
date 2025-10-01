@@ -12,7 +12,8 @@ export default function Contact() {
                  px-4 sm:px-8 md:px-16 py-12 sm:py-16 md:py-20 
                  bg-gradient-to-br from-yellow-50 via-white to-indigo-50
                  dark:from-slate-900 dark:via-slate-950 dark:to-indigo-950
-                 transition-colors duration-500"
+                 transition-colors duration-500
+                 pt-24 sm:pt-28"   // 👈 added padding top
     >
       <motion.h2
         initial={{ opacity: 0, y: -30 }}

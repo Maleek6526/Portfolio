@@ -42,7 +42,10 @@ const projects = [
 export default function Projects() {
   return (
     <section
-      className="min-h-screen px-4 sm:px-8 md:px-16 lg:px-20 py-12 sm:py-16 md:py-20 
+      id="projects"
+      className="min-h-screen pt-24 scroll-mt-24
+                 px-4 sm:px-8 md:px-16 lg:px-20 
+                 py-12 sm:py-16 md:py-20 
                  bg-gradient-to-br from-yellow-50 via-white to-indigo-50 
                  dark:from-slate-900 dark:via-slate-950 dark:to-indigo-950 
                  transition-colors duration-500"
@@ -66,9 +69,11 @@ export default function Projects() {
             className="bg-white dark:bg-slate-900 
                        border border-slate-200 dark:border-slate-700 
                        rounded-2xl shadow-lg overflow-hidden 
-                       hover:scale-105 hover:shadow-2xl 
-                       transition-transform duration-300"
+                       hover:scale-105 hover:shadow-yellow-400/50 
+                       hover:border-yellow-400 
+                       transition-all duration-300"
           >
+            {/* Project Image */}
             <img
               src={p.img}
               alt={p.title}
@@ -76,19 +81,25 @@ export default function Projects() {
               className="w-full h-48 object-cover"
               onError={(e) => {
                 console.error(`Failed to load image for ${p.title}: ${p.img}`);
-                e.target.src = "https://images.unsplash.com/photo-1470259078422-826894b933aa?w=600&h=400&fit=crop"; // Fallback image
+                e.target.src =
+                  "https://images.unsplash.com/photo-1470259078422-826894b933aa?w=600&h=400&fit=crop"; // fallback
               }}
             />
+
+            {/* Project Content */}
             <div className="p-6">
               <h3
                 className="text-xl sm:text-2xl font-bold 
-                          text-slate-800 dark:text-slate-100"
+                          text-slate-800 dark:text-slate-100 
+                          hover:text-yellow-600 dark:hover:text-yellow-400 
+                          transition-colors duration-300"
               >
                 {p.title}
               </h3>
               <p
                 className="mt-3 text-sm sm:text-base 
-                          text-slate-600 dark:text-slate-300"
+                          text-slate-600 dark:text-slate-300 
+                          leading-relaxed"
               >
                 {p.desc}
               </p>
@@ -99,7 +110,7 @@ export default function Projects() {
                            dark:bg-yellow-400 dark:hover:bg-yellow-500 
                            text-white dark:text-slate-900 
                            rounded-lg shadow-md text-sm sm:text-base 
-                           transition-all duration-300"
+                           font-semibold transition-all duration-300"
               >
                 View Project
               </a>
