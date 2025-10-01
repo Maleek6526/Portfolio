@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* smooth font and body */
+:root {
+  --accent: #6d28d9;
+  --accent-2: #8b5cf6;
+}
+
+/* subtle glass effect for header */
+.header-glass {
+  background: linear-gradient(90deg, rgba(255,255,255,0.5), rgba(255,255,255,0.3));
+  backdrop-filter: blur(6px);
+}
+
+/* nice container widths */
+.container-max {
+  max-width: 1200px;
+}
+
+/* animation helper */
+.fade-up {
+  transform-origin: center;
+}
+
+@keyframes walk {
+  0% { transform: translateX(0) translateY(0); }
+  50% { transform: translateX(-10px) translateY(-5px); }
+  100% { transform: translateX(0) translateY(0); }
+}
+
+.animate-walk {
+  animation: walk 1.5s infinite;
+}
