@@ -2,16 +2,23 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "Artwork eCommerce App",
-    desc: "A full-stack marketplace built with FastAPI, MySQL, Paystack, React & Redux.",
+    title: "FastMall ECommerce App",
+    desc: "A full-stack marketplace built with Nodejs, MongoDb, Paystack, React & Redux.",
     img: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=600&h=400&fit=crop",
-    link: "#",
+    link: "https://fastmall-1.onrender.com/",
   },
   {
     title: "Job Platform",
-    desc: "Blue-collar job platform with wallet, subscriptions & job tracking.",
+    desc: "Steerify Platorm for service providers and customers waitlist built with nodejs, mongodb, express & react.",
     img: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&h=400&fit=crop",
-    link: "#",
+    link: "https://steerify-1.onrender.com/",
+  },
+    
+  {
+    title: "Todo Mobile App",
+    desc: "Task management mobile application developed with React Native and Node.js backend.",
+    img: "https://images.unsplash.com/photo-1484480974693-6f26e1d4c7d3?w=600&h=400&fit=crop",
+    link: "https://drive.google.com/file/d/137lFJLU-kZ8n5X38RrkZPJd--GszZfnR/view?usp=sharing",
   },
   {
     title: "Chat App",
@@ -20,15 +27,9 @@ const projects = [
     link: "#",
   },
   {
-    title: "ByOrder",
-    desc: "E-commerce mobile platform similar to Jumia, built with React Native for the frontend and Node.js for the backend.",
+    title: "Steerify Service Platform",
+    desc: "A platorm connecting verified service providers with customers, allowing payment in all types of currencies and built with customer and providers interest at hand. Built using React and Node.js.",
     img: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-    link: "#",
-  },
-  {
-    title: "Todo Mobile App",
-    desc: "Task management mobile application developed with React Native and Node.js backend.",
-    img: "https://images.unsplash.com/photo-1484480974693-6f26e1d4c7d3?w=600&h=400&fit=crop",
     link: "#",
   },
   {
