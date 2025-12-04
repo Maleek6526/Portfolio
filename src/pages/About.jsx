@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import profileImg from "../assets/WhatsApp Image 2025-09-14 at 20.47.29_c02bb8bd.jpg";
+import profileImg from "../assets/IMG-20251018-WA0189.jpg";
 
 export default function About() {
   return (
