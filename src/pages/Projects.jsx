@@ -21,10 +21,10 @@ const projects = [
     link: "https://drive.google.com/file/d/137lFJLU-kZ8n5X38RrkZPJd--GszZfnR/view?usp=sharing",
   },
   {
-    title: "Chat App",
-    desc: "Realtime chat with WebSockets, MongoDB & Node.js.",
+    title: "Task Management Application",
+    desc: "Realtime Task Management System built with Node.js, react and mysql",
     img: "https://images.unsplash.com/photo-1611606063065-ee7946f0787a?w=600&h=400&fit=crop",
-    link: "#",
+    link: "https://taskmanageruiapplication.onrender.com",
   },
   {
     title: "Steerify Service Platform",
