@@ -36,7 +36,7 @@ const projects = [
     title: "SkillNest Application",
     desc: "job referer made easys for artisans and blue collar workers.",
     img: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&h=400&fit=crop",
-    link: "https://skillnest.onrender.com",
+    link: "https://skillnest-l6bu.onrender.com",
   },
 ];
 
