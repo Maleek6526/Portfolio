@@ -30,13 +30,13 @@ const projects = [
     title: "Steerify Service Platform",
     desc: "A platorm connecting verified service providers with customers, allowing payment in all types of currencies and built with customer and providers interest at hand. Built using React and Node.js.",
     img: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-    link: "#",
+    link: "https://steerifygroup.onrender.com",
   },
   {
-    title: "Estate Management GatePass App",
-    desc: "Mobile application for estate gate pass management and visitor tracking, built with React Native.",
+    title: "SkillNest Application",
+    desc: "job referer made easys for artisans and blue collar workers.",
     img: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&h=400&fit=crop",
-    link: "#",
+    link: "https://skillnest.onrender.com",
   },
 ];
 
