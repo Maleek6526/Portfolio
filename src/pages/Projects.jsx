@@ -41,7 +41,7 @@ const projects = [
   {
     title: "Tic-Tac-Toe Web Game",
     desc: "Smooth ui with choice of single or multiplayer.",
-    img: "https://images.unsplash.com/photo-1692546289710-7UcTbivUa64?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", // from Unsplash 
+    img: "https://images.unsplash.com/photo-1668901382969-8c73e450a1f5?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // from Unsplash 
     link: "https://tictactoe-vttx.onrender.com",
   }
 
