@@ -46,7 +46,7 @@ const projects = [
   },
   {
     title: "Kahoot Web Game",
-    desc: "An educational quiz of all types of subjects, allows as many players with tie frame of answering questions.",
+    desc: "An educational quiz of all types of subjects, allows as many players with time frame of answering questions.",
     img: "https://media.istockphoto.com/id/1422961949/photo/vote-ballots-with-question-mark.jpg?s=2048x2048&w=is&k=20&c=y4G_bZnBPOOeXUBmgPVuLzWYdI6U5T8ifd__lUtUlWg=", // from Unsplash 
     link: "https://kahoot-lmsm.onrender.com/",
   }
