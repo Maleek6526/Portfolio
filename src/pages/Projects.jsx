@@ -43,6 +43,12 @@ const projects = [
     desc: "Smooth ui with choice of single or multiplayer.",
     img: "https://images.unsplash.com/photo-1668901382969-8c73e450a1f5?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // from Unsplash 
     link: "https://tictactoe-vttx.onrender.com",
+  },
+  {
+    title: "Kahoot Web Game",
+    desc: "An educational quiz of all types of subjects, allows as many players with tie frame of answering questions.",
+    img: "https://media.istockphoto.com/id/1422961949/photo/vote-ballots-with-question-mark.jpg?s=2048x2048&w=is&k=20&c=y4G_bZnBPOOeXUBmgPVuLzWYdI6U5T8ifd__lUtUlWg=", // from Unsplash 
+    link: "https://kahoot-lmsm.onrender.com/",
   }
 
 ];
