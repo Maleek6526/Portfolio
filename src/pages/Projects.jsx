@@ -38,6 +38,13 @@ const projects = [
     img: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&h=400&fit=crop",
     link: "https://skillnest-l6bu.onrender.com",
   },
+  {
+    title: "Tic-Tac-Toe Web Game",
+    desc: "Smooth ui with choice of single or multiplayer.",
+    img: "https://images.unsplash.com/photo-1692546289710-7UcTbivUa64?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", // from Unsplash 
+    link: "https://tictactoe-vttx.onrender.com",
+  }
+
 ];
 
 export default function Projects() {
