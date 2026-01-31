@@ -89,7 +89,7 @@ export default function About() {
             <span className="text-yellow-600 dark:text-yellow-400 font-semibold">
               databases
             </span>{" "}
-            — with a creative eye for UI and problem-solving mindset.
+            with a creative eye for UI and problem-solving mindset.
           </p>
           <p className="mt-4 text-sm sm:text-base text-slate-600 dark:text-slate-400">
             Outside coding, I explore design, animations, and innovative solutions that make
@@ -108,21 +108,21 @@ export default function About() {
                           dark:from-yellow-900/20 dark:to-yellow-800/20 
                           rounded-xl border border-yellow-200 dark:border-yellow-700
                           text-center transform hover:scale-105 transition duration-300">
-            <p className="text-xl sm:text-2xl font-bold text-yellow-600 dark:text-yellow-400">3+</p>
+            <p className="text-xl sm:text-2xl font-bold text-yellow-600 dark:text-yellow-400">4+</p>
             <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">Years Exp</p>
           </div>
           <div className="p-3 sm:p-4 bg-gradient-to-br from-indigo-50 to-indigo-100 
                           dark:from-indigo-900/20 dark:to-indigo-800/20 
                           rounded-xl border border-indigo-200 dark:border-indigo-700
                           text-center transform hover:scale-105 transition duration-300">
-            <p className="text-xl sm:text-2xl font-bold text-indigo-600 dark:text-indigo-400">10+</p>
+            <p className="text-xl sm:text-2xl font-bold text-indigo-600 dark:text-indigo-400">12+</p>
             <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">Projects</p>
           </div>
           <div className="p-3 sm:p-4 bg-gradient-to-br from-yellow-50 to-indigo-50 
                           dark:from-slate-800/50 dark:to-slate-700/50 
                           rounded-xl border border-slate-200 dark:border-slate-700
                           text-center transform hover:scale-105 transition duration-300">
-            <p className="text-xl sm:text-2xl font-bold text-slate-700 dark:text-slate-300">4</p>
+            <p className="text-xl sm:text-2xl font-bold text-slate-700 dark:text-slate-300">7</p>
             <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">Ideas</p>
           </div>
         </motion.div>

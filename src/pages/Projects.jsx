@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const projects = [
   {
     title: "FastMall ECommerce App",
-    desc: "A full-stack marketplace built with Nodejs, MongoDb, Paystack, React & Redux.",
+    desc: "A full-stack marketplace built with Java, MongoDb, Paystack, React & Redux.",
     img: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=600&h=400&fit=crop",
     link: "https://fastmall-1.onrender.com/",
   },
@@ -16,7 +16,7 @@ const projects = [
     
   {
     title: "Todo Mobile App",
-    desc: "Task management mobile application developed with React Native and Node.js backend.",
+    desc: "Task management mobile application developed with React Native and java backend.",
     img: "https://images.unsplash.com/photo-1484480974693-6f26e1d4c7d3?w=600&h=400&fit=crop",
     link: "https://drive.google.com/file/d/137lFJLU-kZ8n5X38RrkZPJd--GszZfnR/view?usp=sharing",
   },
@@ -28,7 +28,7 @@ const projects = [
   },
   {
     title: "Steerify Service Platform",
-    desc: "A platorm connecting verified service providers with customers, allowing payment in all types of currencies and built with customer and providers interest at hand. Built using React and Node.js.",
+    desc: "A platorm connecting verified service providers with customers, allowing payment in all types of currencies and built with customer and providers interest at hand. Built using React and java.",
     img: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
     link: "https://steerifygroup.onrender.com",
   },
