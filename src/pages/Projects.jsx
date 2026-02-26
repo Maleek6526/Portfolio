@@ -1,6 +1,30 @@
 import { motion } from "framer-motion";
 
 const projects = [
+    {
+    title: "SureTruqs",
+    desc: "A modern, responsive web application designed to streamline logistics operations, connecting customers, drivers, and administrators for seamless shipment management and payment handling.",
+    img: "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=600&h=400&fit=crop",
+    link: "https://suretruqs.vercel.app",
+  },
+  {
+    title: "SteerSolo",
+    desc: "An e-commerce enablement platform for Nigerian solopreneurs, providing tools to build online stores, showcase products, and integrate secure payment gateways.",
+    img: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
+    link: "https://steersolo.com",
+  },
+  {
+    title: "Sui Explorer",
+    desc: "Blockchain explorer for tracking assets, transactions and on-chain activity on the Sui network.",
+    img: "https://images.unsplash.com/photo-1639322537228-f710d846310a?w=600&h=400&fit=crop",
+    link: "https://sui-explorer-lsse.vercel.app",
+  },
+  {
+    title: "Flow",
+    desc: "A professional-grade API client and visual transaction builder tailored specifically for the Sui blockchain, combining Web2 familiarity with Web3-specific Move contract development features.",
+    img: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop",
+    link: "https://sui-flow1896.vercel.app",
+  },
   {
     title: "FastMall ECommerce App",
     desc: "A full-stack marketplace built with Java, MongoDb, Paystack, React & Redux.",
@@ -45,34 +69,17 @@ const projects = [
     link: "https://tictactoe-vttx.onrender.com",
   },
   {
+    title: "DGRAPHICXS WEBSITE",
+    desc: "An Ecommerce website with great ui, display of products and real time order and tracking.",
+    img: "https://plus.unsplash.com/premium_photo-1684785618727-378a3a5e91c5?q=80&w=784&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // from Unsplash 
+    link: "https://dgraphicxs.onrender.com",
+  },
+
+  {
     title: "Kahoot Web Game",
     desc: "An educational quiz of all types of subjects, allows as many players with time frame of answering questions.",
     img: "https://media.istockphoto.com/id/1422961949/photo/vote-ballots-with-question-mark.jpg?s=2048x2048&w=is&k=20&c=y4G_bZnBPOOeXUBmgPVuLzWYdI6U5T8ifd__lUtUlWg=", // from Unsplash 
     link: "https://kahoot-lmsm.onrender.com/",
-  },
-  {
-    title: "SureTruqs",
-    desc: "A modern, responsive web application designed to streamline logistics operations, connecting customers, drivers, and administrators for seamless shipment management and payment handling.",
-    img: "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=600&h=400&fit=crop",
-    link: "https://suretruqs.vercel.app",
-  },
-  {
-    title: "SteerSolo",
-    desc: "An e-commerce enablement platform for Nigerian solopreneurs, providing tools to build online stores, showcase products, and integrate secure payment gateways.",
-    img: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-    link: "https://steersolo.com",
-  },
-  {
-    title: "Sui Explorer",
-    desc: "Blockchain explorer for tracking assets, transactions and on-chain activity on the Sui network.",
-    img: "https://images.unsplash.com/photo-1639322537228-f710d846310a?w=600&h=400&fit=crop",
-    link: "https://sui-explorer-lsse.vercel.app",
-  },
-  {
-    title: "Flow",
-    desc: "A professional-grade API client and visual transaction builder tailored specifically for the Sui blockchain, combining Web2 familiarity with Web3-specific Move contract development features.",
-    img: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop",
-    link: "https://sui-flow1896.vercel.app",
   }
 
 ];
