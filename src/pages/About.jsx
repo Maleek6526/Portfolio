@@ -115,7 +115,7 @@ export default function About() {
                           dark:from-indigo-900/20 dark:to-indigo-800/20 
                           rounded-xl border border-indigo-200 dark:border-indigo-700
                           text-center transform hover:scale-105 transition duration-300">
-            <p className="text-xl sm:text-2xl font-bold text-indigo-600 dark:text-indigo-400">12+</p>
+            <p className="text-xl sm:text-2xl font-bold text-indigo-600 dark:text-indigo-400">13+</p>
             <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">Projects</p>
           </div>
           <div className="p-3 sm:p-4 bg-gradient-to-br from-yellow-50 to-indigo-50 
