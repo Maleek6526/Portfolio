@@ -108,7 +108,7 @@ export default function About() {
                           dark:from-yellow-900/20 dark:to-yellow-800/20 
                           rounded-xl border border-yellow-200 dark:border-yellow-700
                           text-center transform hover:scale-105 transition duration-300">
-            <p className="text-xl sm:text-2xl font-bold text-yellow-600 dark:text-yellow-400">4+</p>
+            <p className="text-xl sm:text-2xl font-bold text-yellow-600 dark:text-yellow-400">5+</p>
             <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">Years Exp</p>
           </div>
           <div className="p-3 sm:p-4 bg-gradient-to-br from-indigo-50 to-indigo-100 

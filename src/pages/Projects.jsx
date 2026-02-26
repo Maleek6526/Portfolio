@@ -5,13 +5,13 @@ const projects = [
     title: "FastMall ECommerce App",
     desc: "A full-stack marketplace built with Java, MongoDb, Paystack, React & Redux.",
     img: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=600&h=400&fit=crop",
-    link: "https://fastmall-1.onrender.com/",
+    link: "https://fastmall-1.onrender.com",
   },
   {
     title: "Job Platform",
     desc: "Steerify Platorm for service providers and customers waitlist built with nodejs, mongodb, express & react.",
     img: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&h=400&fit=crop",
-    link: "https://steerify-1.onrender.com/",
+    link: "https://steerify-1.onrender.com",
   },
     
   {
